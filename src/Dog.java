@@ -4,6 +4,8 @@ public class Dog {
     private String breed;
     private int age;
 
+    private String colour;
+
     //constructors
 
     public Dog(String name, String breed) {
@@ -37,6 +39,14 @@ public class Dog {
 
     public void setAge(int age) {
         this.age = age;
+    }
+
+    public String getColour() {
+        return colour;
+    }
+
+    public void setColour(String colour) {
+        this.colour = colour;
     }
 
     @Override
